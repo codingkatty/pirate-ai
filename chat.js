@@ -80,7 +80,7 @@ async function generateAIResponse(input) {
   }
 
   try {
-    const response = await fetch("https://your-service.onrender.com/generate", {
+    const response = await fetch("https://pirate-ai.onrender.com/generate", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
