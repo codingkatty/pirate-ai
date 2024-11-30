@@ -91,12 +91,12 @@ async function generateAIResponse(input) {
     const data = await response.json();
 
     if (data.error) {
-      document.getElementById("output").innerText = `Error: ${data.error}`;
-    } else {
-      document.getElementById("output").innerText = data.response;
+      throw new Error(data.error);
     }
+
+    return data;
   } catch (error) {
     console.error("Error:", error);
-    document.getElementById("output").innerText = "An error occurred.";
+    throw error;
   }
 }
