@@ -5,7 +5,7 @@ import google.generativeai as genai
 
 app = Flask(__name__)
 
-CORS(app, origins=["https://codingkatty.github.io/pirate-ai"])
+CORS(app, origins=["https://codingkatty.github.io"])
 
 api_key = os.getenv("API_KEY")
 if not api_key:
