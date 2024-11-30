@@ -1,13 +1,16 @@
 import os
 from flask import Flask, jsonify, request
+from flask_cors import CORS
 import google.generativeai as genai
 
 app = Flask(__name__)
 
-apiKey = os.getenv("API_KEY")
-if not apiKey:
+CORS(app, origins=["https://codingkatty.github.io/pirate-ai"])
+
+api_key = os.getenv("API_KEY")
+if not api_key:
     raise RuntimeError("API_KEY environment variable is missing.")
-genai.configure(api_key=apiKey)
+genai.configure(api_key=api_key)
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 @app.route('/generate', methods=['POST'])
