@@ -1,6 +1,6 @@
 # Pirate AI 🏴‍☠️
 
-<img src="Pirate AI.png">
+<img src="https://i.imgur.com/ZOldbpH.png">
 
 Gemini clone for pirates. Arr! ⛵<br>
 The idea for this is by the 'dino', to suggest things for pirates, like a pirate assistant!
@@ -17,13 +17,13 @@ This is a website for the High Seas Hackathon. Here are some important links:
 ## How to Use 💖
 
 1. After going in the website, you should see a prompt, click 'OK' to continue.
-<img src="other/pirate1.png">
+<img src="https://i.imgur.com/awfxyVu.png">
 
 2. Then, select the textarea (input) and type your message.
-<img src="other/pirate2.png">
+<img src="https://i.imgur.com/XT1rxVo.png">
 
 3. After typing, click the 'Send' button. The AI shall then reply to you.
-<img src="other/pirate3.png">
+<img src="https://i.imgur.com/MSqVb03.png">
 
 ### Long wait after clicking 'Send' 🤔
 
