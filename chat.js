@@ -1,7 +1,3 @@
-if (!confirm("Ahoy, matey! ⚓\nThe AI may take around 50 seconds to respond if it is inactive.\nPress 'OK' if ya mind the wait, or 'Cancel' to watch a video demonstration instead.")) {
-  window.open("https://youtu.be/A6A9IJY-aGU", "_blank");
-}
-
 let messageNumber = 0;
 let isLoading = false;
 let memory = [];
