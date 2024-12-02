@@ -31,6 +31,16 @@ I've used Render to host the webservice (python) to communicate with the API. If
 
 ---
 
+## Updates 🌊
+
+Here, find all the stuff I've done for updates.
+
+### Update 1 (2/12/2024)
+
+Not a reaalllly big update, but used UptimeRobot to keep Render onilne, so the 'wait' is removed and the AI will reply fast and almost instantly. Also, I changed the README images to host on Imgur, so it is readable in the High Seas README page.
+
+---
+
 ## Things I learned 📚
 
 For this project, I've used a couple of languages and services. I also explored how to implement AI in code. Despite knowing HTML/CSS/JS, I also learned and refreshed my knowledge during the making of this. It took me around 2 hours, with the help of Github Copilot for this project. I look to make more complex projects to improve me coding skills in the future!
