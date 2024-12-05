@@ -16,18 +16,17 @@ This is a website for the High Seas Hackathon. Here are some important links:
 
 ## How to Use 💖
 
-1. After going in the website, you should see a prompt, click 'OK' to continue.
-<img src="https://i.imgur.com/awfxyVu.png">
-
-2. Then, select the textarea (input) and type your message.
+1. Select the textarea (input) and type your message.
 <img src="https://i.imgur.com/XT1rxVo.png">
 
-3. After typing, click the 'Send' button. The AI shall then reply to you.
+2. After typing, click the 'Send' button. The AI shall then reply to you.
 <img src="https://i.imgur.com/MSqVb03.png">
 
 ### Long wait after clicking 'Send' 🤔
 
 I've used Render to host the webservice (python) to communicate with the API. If it hasn't been used for some time, the server will shut down, and it will take around 50 seconds to load. After that, it will load fast for future messages.
+
+Now, this error should not occur. It should be not have any delay because I have made sure the server is active 24/7 by setting up a cron job.
 
 ---
 
@@ -38,6 +37,9 @@ Here, find all the stuff I've done for updates.
 ### Update 1 (2/12/2024)
 
 Not a reaalllly big update, but used UptimeRobot to keep Render onilne, so the 'wait' is removed and the AI will reply fast and almost instantly. Also, I changed the README images to host on Imgur, so it is readable in the High Seas README page.
+
+Small edit: Used cron-job instead. Its more flexible and it works, too!
+ - Update shipped at 5/12/2024
 
 ---
 
