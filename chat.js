@@ -2,6 +2,7 @@ let messageNumber = 0;
 let isLoading = false;
 let memory = [];
 const sendButton = document.getElementById("enter");
+const inputField = document.getElementById("inputField");
 
 function appendMessage(message, isAI) {
   const chatHistory = document.getElementById("chatHistory");
@@ -25,7 +26,6 @@ function showLoadingIndicator() {
 }
 
 function sendUserMessage() {
-  const inputField = document.getElementById("inputField");
   const message = inputField.value.trim();
 
   if (message && !isLoading) {
@@ -100,3 +100,12 @@ async function generateAIResponse(input) {
     throw error;
   }
 }
+
+inputField.addEventListener("keypress", (e) => {
+  if (e.key === "Enter" && !e.shiftKey) {
+    e.preventDefault();
+    sendUserMessage();
+  }
+});
+
+sendButton.addEventListener("click", sendUserMessage);
