@@ -39,6 +39,7 @@ Here, find all the stuff I've done for updates.
 Not a reaalllly big update, but used UptimeRobot to keep Render onilne, so the 'wait' is removed and the AI will reply fast and almost instantly. Also, I changed the README images to host on Imgur, so it is readable in the High Seas README page.
 
 Small edit: Used cron-job instead. Its more flexible and it works, too!
+Small edit x2: Added 'enter' key for easy send. It now works more smoothly.
  - Update shipped at 5/12/2024
 
 ---
